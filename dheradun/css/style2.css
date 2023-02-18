@@ -1,0 +1,44 @@
+body {
+    font-size: 50px;
+    font-family: 'Babylonica', cursive;
+    color: antiquewhite;
+    background: url('../img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left{
+    left: 50px;
+    position: absolute;
+display: inline-block;
+}
+.mid{
+display: block;
+width: 500px;
+margin: 63px auto;
+}
+.navbar li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.navbar li {
+    display: inline-block;
+    padding-right: 0px;
+}
+.navbar li a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.right a{
+    text-decoration: none;
+}
+.right{
+    position: absolute;
+    top: 63px;
+    right: 50px;
+display: inline-block;
+}
+.map{
+    width: 500px;
+    height: 500px;
+}
